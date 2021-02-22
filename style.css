@@ -1,0 +1,64 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+.container{
+  width: 900px;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  background-color: rgba(107,107,107,0.7);
+  border-radius: 2%;
+}
+#logo{
+  width: 180px;
+  display: block;
+  margin: auto;
+}
+h1{
+  color: rgb(0, 221, 0);
+  text-align: center;
+  font-size: 25px;
+}
+nav{
+  background-color: rgb(0, 221, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 800px;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  color: white;
+  width: 800px;
+  margin: auto;
+}
+main > h2{
+  font-size: 18px;
+  display: inline-block;
+}
+main > p{
+  font-size: 15px;
+  line-height: 5px;
+}
+hr{
+  border: 12px solid;
+  border-radius: 5px;
+  margin-left: 0px;
+}
+#loading-1{
+  color: rgb(245, 180, 83);
+  width: 33%;
+}
+#loading-2{
+  color: rgb(0, 221, 0);
+  width: 60%;
+}
+#loading-3{
+  color: rgb(190, 65, 65);
+  width: 20%;
+}
